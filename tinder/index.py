@@ -42,7 +42,7 @@ def loadPerson():
     getAge = loadData['results'][0]['dob']['age']
     
 
-    loadMessage(getFirstName, str(getAge)
+    loadMessage(getFirstName, str(getAge))
    
 loadPerson()
 
